@@ -1,4 +1,4 @@
-def my_function():
+def my_name():
     print('my name is fatima')
 def my_meal(food, drink):
     print(f"i like to eat {food} while drinking {drink}")
@@ -8,7 +8,7 @@ def cube(number):
 #print(cube(5))
 def by_three(number):
     if number % 3 == 0:
-        print(cube(number))
+        return(cube(number))
     else:
         return False
-print(by_three(7))
+print(by_three(9))
